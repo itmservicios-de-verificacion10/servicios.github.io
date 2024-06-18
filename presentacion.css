@@ -1,0 +1,226 @@
+/*
+ * Mexico D.F. 2010
+ *El contenido de este archivo fue desarrollado por :
+ *Rogelio Argumedo Uribe rogelio.argumedo@sip.gob.mx para la 
+ *Presidencia de la RepÃºblica a travÃ©s del Sistema Internet de la
+ *Presidencia (SIP sip.gob.mx).
+ *
+ *Bajo la Licencia: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 
+ *http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_MX
+ *
+*/
+
+#presentacion 
+{
+	font-size:medium;
+	width: 100% !important;
+	height: 16em;
+}
+
+.B #presentacion {
+	width: 44em;
+}
+.C #presentacion {
+	width: 39.5em;
+}
+.D #presentacion {
+	width: 38em;
+}
+.E #presentacion {
+	width: 35em;
+}
+.F #presentacion {
+	width: 29em;
+}
+.P #presentacion {
+	width: 47em;
+}
+
+.cuadro_presentacion {
+	height: 155px;
+	border-top: 1px solid #e7e7e8;
+	border-right: 1px solid #e7e7e8;
+	border-left: 1px solid #e7e7e8;
+}
+
+.elemento_presentacion {
+	float: left;
+	width: 155px;
+	padding-top: .5em;
+	height: 218px;
+	padding-left: 6px;
+	overflow: hidden;
+}
+
+.imagen_presentacion {
+	height: 218px;
+	width: 155px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+.B1_presentacion {
+	margin-top: -30px;
+}
+
+.Fon_c4v_presentacion {
+	background-color: #000000;
+	opacity: 0.75;
+	width: 155px;
+	height: 218px;
+	position: relative;
+}
+
+.T1_presentacion {
+	color: #ffffff;
+	position: relative;
+	margin-top: -218px;
+	width: 155px;
+	height: 218px;
+}
+
+.Tit_c2_v4_presentacion {
+	font-size: .7em;
+	line-height: 1.1em;
+	padding: .2em .5em;
+	height: 6em;
+	text-align: left;
+}
+
+.Tit2_c2_v4_presentacion {
+	font-size: .8em;
+	text-align: center;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height: 1.1em;
+	margin-top: .5em;
+	padding-right: .5em;
+	padding-left: .5em;
+}
+
+.Tex_c2_v4_presentacion {
+	font-size: .7em;
+	line-height: 1.1em;
+	margin-top: .5em;
+	padding-right: .5em;
+	padding-left: .5em;
+	text-align: left;
+}
+
+.Tex_c2_v4_presentacion a {
+	color: #ffffff !important;
+	text-decoration: none;
+}
+
+/* --------------------- */
+
+.L_verde_presentacion {
+	border-top: 3px solid #9dd06b;
+}
+
+.L_naranja_presentacion {
+	border-top: 3px solid #f3901b;
+}
+
+.L_azul_presentacion {
+	border-top: 3px solid #0367b3;
+}
+
+.L_limon_presentacion {
+	border-top: 3px solid #ccd522;
+}
+
+.L_rosa_presentacion {
+	border-top: 3px solid #d90a90;
+}
+
+.L_marron_presentacion {
+	border-top: 3px solid #920e26;
+}
+
+/* ------------------- */
+
+.F_verde_presentacion {
+	width: 10px;
+	height: 5px;
+	/*background-image: url(imagenes/flechas_carrusel2.gif) 50% transparent;*/
+	float: right;
+	margin-right: 3px;
+}
+
+.F_naranja_presentacion {
+	width: 10px;
+	height: 5px;
+	float: right;
+	margin-right: 3px;
+/*	background: url(imagenes/flechas_carrusel2.gif) -15px 50% transparent;*/
+}
+
+.F_azul_presentacion {
+	width: 10px;
+	height: 5px;
+	float: right;
+	margin-right: 3px;
+/*	background: url(imagenes/flechas_carrusel2.gif) -30px 50% transparent;*/
+}
+
+.F_limon_presentacion {
+	width: 10px;
+	height: 5px;
+	float: right;
+	margin-right: 3px;
+	/*background: url(imagenes/flechas_carrusel2.gif) -45px 50% transparent;*/
+}
+
+.F_rosa_presentacion {
+	width: 10px;
+	height: 5px;
+	float: right;
+	margin-right: 3px;
+/*	background: url(imagenes/flechas_carrusel2.gif) -60px 50% transparent;*/
+}
+
+.F_marron_presentacion {
+	width: 10px;
+	height: 5px;
+	float: right;
+	margin-right: 3px;
+/*	background: url(imagenes/flechas_carrusel2.gif) -75px 50% transparent;*/
+
+}
+
+/* ------------------ */
+
+.imagen_c2_presentacion {
+	border: 2px solid gray;
+	width: 9em;
+	height: 13em;
+	margin-right: .4em;
+}
+
+.titulo_c1_presentacion {
+	text-transform: uppercase;
+	margin-bottom: .2em;
+	font-size: .8em;
+}
+
+.titulo_c1_presentacion a {
+	color: #b6590f;
+	text-decoration: none;
+}
+
+.titulo_c1_presentacion a:hover {
+	text-decoration: underline;
+}
+
+.descrip_c1_presentacion {
+	font-size: .6em;
+	line-height: 1.2em;
+	color: #5b5a59;
+}
+
+/*ARRG Para desaparecer el menu*/
+.menutransparente{
+	display:none;
+	}
